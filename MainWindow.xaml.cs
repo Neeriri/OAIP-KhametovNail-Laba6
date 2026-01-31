@@ -24,15 +24,19 @@ namespace WpfApp1
         }
         private void monthseason(object sender, RoutedEventArgs e)
         {
+            string i=month.Text.Trim();
             if(!int.TryParse(month.Text,out int m))
             {
-                Console.WriteLine("Введите число");
+                result.Text = ("Введите число");
+            }
+            if  (string.IsNullOrEmpty(i)){
+                result.Text=("Поле ввода не может быть пустым.");
             }
             else
-            {
-                string season = Seasonresult( m);
-                result.Text = season;
-            }
+    {
+        string season = Seasonresult(m);
+        result.Text = season;
+    }
         }
         public string Seasonresult(int m)
         {
