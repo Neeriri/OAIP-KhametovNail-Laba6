@@ -1,0 +1,21 @@
+﻿<Window x:Class="Задание_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Задание_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"  Content="Введите массив  целых чисел" FontWeight="Bold" FontSize="14" VerticalAlignment="Top" HorizontalContentAlignment="Center"></Label>
+        <TextBox Grid.Row="1" x:Name="mas1" FontSize="14" FontWeight="Bold"></TextBox>
+        <Button Grid.Row="2"   Content="Сколько раз самый частый элемент масив встречается" Click="masresult" FontSize="14" FontWeight="Bold"></Button>
+        <TextBox x:Name="result" Text="Результат " FontSize="14" FontWeight="Bold" Grid.Row="3"></TextBox>
+    </Grid>
+</Window>
