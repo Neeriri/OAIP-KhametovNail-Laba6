@@ -28,9 +28,10 @@ namespace Задание_5
         {
             int rows;
             int colums;
+            int maxsize= 35;
             
             Random a = new Random();
-            int.TryParse(colm.Text, out colums);
+          
             if (!int.TryParse(row.Text, out rows) || rows <= 0)
             {
                 MessageBox.Show("Введите целые не отрицательные числа!!! в первой строчке");
@@ -40,6 +41,11 @@ namespace Задание_5
             if (!int.TryParse(colm.Text, out colums) || colums <= 0)
             {
                 MessageBox.Show("Введите целые не отрицательные числа!!! во второй строчке");
+                return;
+            }
+            if (rows>= maxsize && colums>=maxsize)
+            {
+                MessageBox.Show($"Размер матрицы не  должен быть больше{maxsize*maxsize} ");
                 return;
             }
             try { 
