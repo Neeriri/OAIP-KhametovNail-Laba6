@@ -1,0 +1,29 @@
+﻿<Window x:Class="Лаба_6_2._5task"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лаба_6_2"
+        mc:Ignorable="d"
+        Title="_5task" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Введите размерность матрицы в первой строки во второй столбцы учтите что от этого зависет результат" FontSize="14" FontFamily="Consolas"></Label>
+        <TextBox x:Name="row" Grid.Row="1" />
+        <TextBox x:Name="colm" Grid.Row="2" ></TextBox>
+        <Button Click="sum_two_mas" Content="Посчитать суммы двух рандомных матриц с заданым размером" FontSize="14" FontFamily="Consolas" Grid.Row="3" VerticalAlignment="Center"></Button>
+        <ScrollViewer Grid.Row="4" HorizontalScrollBarVisibility="Visible"><TextBox x:Name="masresult" FontFamily="Consolas" Text="Написать программу, выполняющую расчет суммы двух
+неквадратных матриц. Матрицы должны храниться в памяти в виде
+двумерного динамического массива, размерности матриц вводятся
+пользователем с клавиатуры. Предусмотреть генерацию значений
+матриц как случайных вещественных чисел в диапазоне от -2.5 до
+2.5
+"  FontSize="14" Grid.Row="4" Margin="0,0,0,-22"></TextBox></ScrollViewer>
+    </Grid>
+</Window>

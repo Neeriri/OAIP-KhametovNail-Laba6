@@ -1,0 +1,27 @@
+﻿<Window x:Class="Лаба_6_2._1_1task"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лаба_6_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Введите месяц от 1-12" FontWeight="Bold" FontSize="14"></Label>
+        <TextBox Grid.Row="1" x:Name="month"
+                 TextAlignment="Center" FontSize="14" Height="30" ></TextBox>
+        <Button Grid.Row="2" Content="Определить сезон" Click="monthseason" Margin="0,10" FontWeight="Bold" FontSize="14"></Button>
+        <TextBlock Grid.Row="3" x:Name="result" Text="Напишите программу, которая определяет сезон года на основе
+введенного месяца (1 – 12)" FontSize="16" FontWeight="Bold" Margin="0,20"></TextBlock>
+        <Button Grid.Row="4" Content="Назад в меню" Click="GoBack_Click" 
+                FontSize="14" FontFamily="Consolas" Margin="5" Padding="10,5"/>
+    </Grid>
+</Window>

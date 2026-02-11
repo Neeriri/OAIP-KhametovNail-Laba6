@@ -1,0 +1,29 @@
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Лаба 6_2.csproj.AssemblyReference.cache
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\MainWindow.baml
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\MainWindow.g.cs
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\App.g.cs
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Лаба 6_2_MarkupCompile.cache
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Лаба 6_2.g.resources
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Лаба_6_2.Properties.Resources.resources
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Лаба 6_2.csproj.GenerateResource.cache
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Лаба 6_2.csproj.CoreCompileInputs.cache
+C:\Users\Neeriri\source\repos\Лаба 6_2\bin\Debug\Лаба 6_2.exe.config
+C:\Users\Neeriri\source\repos\Лаба 6_2\bin\Debug\Лаба 6_2.exe
+C:\Users\Neeriri\source\repos\Лаба 6_2\bin\Debug\Лаба 6_2.pdb
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\1_1task.g.cs
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\2task.g.cs
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\3task.g.cs
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\4task.g.cs
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\5task.g.cs
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\6task.g.cs
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Window1.g.cs
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Лаба 6_2_MarkupCompile.lref
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\1_1task.baml
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\2task.baml
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\3task.baml
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\4task.baml
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\5task.baml
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\6task.baml
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Window1.baml
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Лаба 6_2.exe
+C:\Users\Neeriri\source\repos\Лаба 6_2\obj\Debug\Лаба 6_2.pdb
