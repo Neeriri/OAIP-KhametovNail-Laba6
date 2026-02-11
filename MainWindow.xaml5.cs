@@ -28,6 +28,7 @@ namespace Задание_5
         {
             int rows;
             int colums;
+            
             Random a = new Random();
             int.TryParse(colm.Text, out colums);
             if (!int.TryParse(row.Text, out rows) || rows <= 0)
@@ -41,7 +42,7 @@ namespace Задание_5
                 MessageBox.Show("Введите целые не отрицательные числа!!! во второй строчке");
                 return;
             }
-           ;
+            try { 
             double[,] mas2 = new double[rows, colums];
             double[,] mas1 = new double[rows, colums];
             double[,] mas3 = new double[rows, colums];
@@ -68,6 +69,15 @@ namespace Задание_5
             }
 
             masresult.Text = sb.ToString();
+        }
+            catch (OutOfMemoryException)
+            {
+                MessageBox.Show("Память то не бесконечная.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($" ошибка: {ex.Message}");
+            }
         }
            
     }
